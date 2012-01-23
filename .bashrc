@@ -65,3 +65,6 @@ fi
 if [ $TERM != screen ]; then
 	screen
 fi
+
+# Load RVM into shell session.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
