@@ -101,5 +101,13 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
+" Map open and close items in insert mode.
+inoremap { {<CR>}<Esc>O
+inoremap [ []<Esc>i
+inoremap ( ()<Esc>i
+inoremap } <Esc>/}<CR>o<CR>
+inoremap ] <Esc>/]<CR>a
+inoremap ) <Esc>/)<CR>a
+
 " Automatically reload the .vimrc when changes are made to it
 au! BufWritePost .vimrc source %
