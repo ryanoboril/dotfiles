@@ -74,6 +74,9 @@ fi
 # Load RVM into shell session.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
+# Set the python startup file
+export PYTHONSTARTUP=~/.pythonrc
+
 # Automatically open screen.
 # The if statement prevents it from recursing (since screen opens bash).
 if [ $TERM != screen ]; then
