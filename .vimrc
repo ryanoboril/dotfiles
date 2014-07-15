@@ -21,15 +21,6 @@ filetype indent on
 "     autocmd filetype python set expandtab
 " endif
 
-" Allow folding.
-set foldenable
-set foldmethod=syntax
-set foldlevelstart=99
-
-" Show line numbers.
-set number
-set numberwidth=4
-
 " Scroll five lines ahead of cursor.
 set scrolloff=5
 
@@ -37,9 +28,9 @@ set scrolloff=5
 set noeb vb t_vb=
 
 " Set tabs to width 4.
-set softtabstop=4
-set tabstop=4
-set shiftwidth=4
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Allow backspacing over everything in insert mode.
@@ -85,17 +76,7 @@ syntax enable
 syn sync fromstart
 
 " Set the color scheme to desert.
-colorscheme desert
-
-" Unmap the arrow keys to prevent bad habits.
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
+"colorscheme desert
 
 " Automatically reload the .vimrc when changes are made to it
 au! BufWritePost .vimrc source %
