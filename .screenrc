@@ -11,8 +11,6 @@ vbell off			# Turn off screen flashing for bell.
 # SCREEN KEYBINDINGS
 # ------------------------------------------------------------------------------
 
-escape ^]]		# Use <control>+] instead of <control>+a for screen commands.
-
 # Remove some stupid / dangerous key bindings
 bind ^k
 bind L
