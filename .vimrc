@@ -50,8 +50,7 @@ augroup END
 set incsearch
 
 " Display command and location status.
-set ruler
-set showcmd
+"set showcmd
 
 " Multiple windows are equally sized and open in reading order.
 set equalalways
@@ -80,3 +79,5 @@ syn sync fromstart
 
 " Automatically reload the .vimrc when changes are made to it
 au! BufWritePost .vimrc source %
+
+set ruler

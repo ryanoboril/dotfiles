@@ -4,7 +4,7 @@
 
 startup_message off	# Turn off the introductory startup message.
 #autodetach off		# Close associated programs when screen closes.
-defscrollback 1024	# Define a longer scrollback.
+defscrollback 4096	# Define a longer scrollback.
 vbell off			# Turn off screen flashing for bell.
 
 # ------------------------------------------------------------------------------
